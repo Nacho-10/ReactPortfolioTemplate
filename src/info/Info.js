@@ -8,7 +8,7 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(3,38,68)", "rgb(153,184,255)"]; 
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -23,8 +23,8 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
+    firstName: "Ignacio",
+    lastName: "Musa",
     initials: "js", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
@@ -32,66 +32,66 @@ export const info = {
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '🌊',
+            text: 'I love the sea'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the ARG'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Employee looking for first IT experience"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "ignaciomusa26@gmail.com"
+        },
+        {
+            emoji: "📞",
+            text: "+5493416813156"
         }
     ],
     socials: [
         {
-            link: "https://facebook.com",
+            link: "https://facebook.com/nachito.rc",
             icon: 'fa fa-facebook',
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
+            link: "https://instagram.com/ignaciomusa",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/Nacho-10",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://linkedin.com/in/ignacio-musa",
             icon: "fa fa-linkedin",
             label: 'linkedin'
-        },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
         }
+        
 // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Ignacio. I'm a student and employee. I did bootcamp at SoyHenry from fullstack and now I do backend course in CoderHouse. I like to be with family and friends, I am a friendly person and eager to continue learning!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            development: ['javascript', 'node.js', 'git', 'github', 'bootstrap', 'html5', 'css', 'mongo'],
+            know: ['react', 'redux', 'adobe illustrator']
         }
     ,
     hobbies: [
         {
-            label: 'reading',
+            label: 'study',
             emoji: '📖'
         },
         {
-            label: 'theater',
+            label: 'party',
             emoji: '🎭'
         },
         {
