@@ -80,7 +80,8 @@ export const info = {
     ],
     bio: "Hello! I'm Ignacio. I'm a student and employee. I did bootcamp at SoyHenry from fullstack and now I do backend course in CoderHouse. I like to be with family and friends, I am a friendly person and eager to continue learning!",
     skills:
-        {
+        {   proficientWith: [],
+            exposedTo: [],
             development: ['javascript', 'node.js', 'git', 'github', 'bootstrap', 'html5', 'css', 'mongo'],
             know: ['react', 'redux', 'adobe illustrator']
         }
