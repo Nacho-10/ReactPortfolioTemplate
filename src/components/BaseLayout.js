@@ -34,7 +34,7 @@ export default function BaseLayout() {
             <Grid item>
                <Navbar darkMode={darkMode} handleClick={handleToggleDarkMode}/>
             </Grid>
-            <Grid item flexGrow={1}>
+            <Grid item flexGrow={1} display={'flex'} justifyContent={'center'} alignItems={'center'} width={'100%'}>
                <Routes>
                   <Route exact path={'/'} element={<Home/>}/>
                   <Route exact path={'/about'} element={<About/>}/>

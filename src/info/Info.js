@@ -8,7 +8,7 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(3,38,68)", "rgb(153,184,255)"]; 
+export let colors = ["rgb(150, 180, 250)", "rgb(153,184,255)"]; 
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -53,6 +53,11 @@ export const info = {
         }
     ],
     socials: [
+        {
+            link:"https://wa.me/+5493416813156",
+            icon: "fa fa-whatsapp",
+            label: 'whatsapp'
+        },
         {
             link: "https://facebook.com/nachito.rc",
             icon: 'fa fa-facebook',
@@ -108,12 +113,12 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "Project soyHenry: food",
+            //live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
+            source: "https://github.com/Nacho-10/henryFoods", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
-        {
+     /*    {
             title: "Project 2",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
@@ -136,6 +141,6 @@ export const info = {
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             image: mock5
-        }
+        } */
     ]
 }
